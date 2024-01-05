@@ -1,0 +1,18 @@
+form{
+    padding: 12px;
+}
+label,input{
+    display: block;
+    margin-bottom: 5px;
+   
+}
+
+td,th,table{
+
+    text-align: center;
+    border: 2px solid blue;
+    
+ 
+}
+td,th{
+    padding:.25rem 1.5rem;}
