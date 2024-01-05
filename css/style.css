@@ -26,3 +26,6 @@ form> label , form> input{
     display: block;
     margin-bottom: 10px;
 }
+textarea{
+    margin-bottom: 10px;
+}
