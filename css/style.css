@@ -1,31 +1,53 @@
-body{
-    margin:0;
+body {
+  margin: 0;
 }
 
-.upper{
-    padding: 20px;
+.upper {
+  padding: 20px;
 }
 
-a{
-    padding: 10px;
-    text-decoration: none;
-    color: blue;
+a {
+  padding: 10px;
+  text-decoration: none;
+  color: blue;
 }
-.link:hover{
-    
-    background-color: rgba(0, 255, 255, 0.255);
-}
-
-img{
-    width:400px;
-    display: block;
-    margin: 20px 0;
+.link:hover {
+  background-color: rgba(0, 255, 255, 0.255);
 }
 
-form> label , form> input{
-    display: block;
-    margin-bottom: 10px;
+img {
+  width: 400px;
+  display: block;
+  margin: 20px 0;
 }
-textarea{
-    margin-bottom: 10px;
+
+form > label,
+form > input {
+  display: block;
+  margin-bottom: 10px;
+}
+textarea {
+  margin-bottom: 10px;
+}
+nav {
+  color: blue;
+  background-color: aquamarine;
+  margin: 1rem;
+  padding: 0.5rem;
+  width: fit-content;
+}
+
+ul {
+  padding: 0;
+  background-color: rgb(227, 196, 255);
+  position: absolute;
+  display: none;
+}
+
+li {
+  list-style: none;
+  margin-bottom: 0.5rem;
+}
+nav:hover ul {
+  display: block;
 }

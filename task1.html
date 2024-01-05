@@ -1,52 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task 1</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="nav_bar">
+      Go to..
+      <ul>
+        <li><a href="task1.html">Task 1</a></li>
+        <li><a href="task2.html">Task 2</a></li>
+        <li><a href="task3.html">Task 3</a></li>
+      </ul>
+    </nav>
 
-<!-- <nav class="nav_bar">
-    <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</nav> -->
-
-
- <div class="upper">
-
-    <div class="search">
-        <label class="searchbar_label" for="searchbar">Search your Image here: </label>
-        <input class="searchbar" name="searchbar" type="search" placeholder="Search Here">
+    <div class="upper">
+      <div class="search">
+        <label class="searchbar_label" for="searchbar"
+          >Search your Image here:
+        </label>
+        <input
+          class="searchbar"
+          name="searchbar"
+          type="search"
+          placeholder="Search Here"
+        />
         <button class="search_btn">Search</button>
+      </div>
+
+      <img class="image" src="Image/nachos.jpg" alt="image" />
+      <a class="link" href="https://www.google.com/">For more Click here</a>
     </div>
-    
-    <img class="image" src="Image/nachos.jpg" alt="image">
-    <a class="link" href="https://www.google.com/">For more Click here</a>
- </div>
 
-<hr>
+    <hr />
 
-<fieldset>
-    <legend>Feedback Form</legend>
-    <form class="form">
+    <fieldset>
+      <legend>Feedback Form</legend>
+      <form class="form">
+        <label for="name">Name:</label>
+        <input
+          style="width: 20rem; padding: 5px"
+          type="text"
+          placeholder="Name"
+        />
+        <label for="date">Date:</label>
+        <input style="padding: 5px" type="date" />
+        <label for="comment">Comment:</label>
+        <textarea
+          name="comment"
+          id="comment"
+          cols="100"
+          rows="10"
+          placeholder="Give Your Feedback"
+        ></textarea>
 
-   
-    
-<label  for="name">Name:</label>
-<input style=" width:20rem; padding:5px"  type="text" placeholder="Name">
-<label for="date">Date:</label>
-<input style="padding:5px" type="date">
-<label for="comment">Comment:</label>
-<textarea name="comment" id="comment" cols="100" rows="10" placeholder="Give Your Feedback"></textarea>
-    
-<input type="submit">
-</form>
-</fieldset>
-
-</body>
+        <input type="submit" />
+      </form>
+    </fieldset>
+  </body>
 </html>
