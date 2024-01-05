@@ -7,29 +7,44 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
- 
-<label for="searchbar" type=""text>Search your Image here: </label>
-<input type="search" placeholder="Search Here">
-<button>Search</button>
-<img src="Image/nachos.jpg" alt="image">
-<a href="https://www.google.com/">For more Click here</a>
+
+<!-- <nav class="nav_bar">
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</nav> -->
+
+
+ <div class="upper">
+
+    <div class="search">
+        <label class="searchbar_label" for="searchbar">Search your Image here: </label>
+        <input class="searchbar" name="searchbar" type="search" placeholder="Search Here">
+        <button class="search_btn">Search</button>
+    </div>
+    
+    <img class="image" src="Image/nachos.jpg" alt="image">
+    <a class="link" href="https://www.google.com/">For more Click here</a>
+ </div>
 
 <hr>
-<form action="">
 
 <fieldset>
     <legend>Feedback Form</legend>
-    <form action="">
+    <form class="form">
 
-<label for="name">Name:</label>
-<input type="text" placeholder="Name">
+   
+    
+<label  for="name">Name:</label>
+<input style=" width:20rem; padding:5px"  type="text" placeholder="Name">
 <label for="date">Date:</label>
-<input type="date">
-<label for="comment">Comment</label>
-<textarea name="comment" id="comment" cols="20" rows="3" placeholder="Give Your Feedback"></textarea>
+<input style="padding:5px" type="date">
+<label for="comment">Comment:</label>
+<textarea name="comment" id="comment" cols="100" rows="10" placeholder="Give Your Feedback"></textarea>
     </form>
 </fieldset>
 
-</form>
 </body>
 </html>
